@@ -1,0 +1,87 @@
+body {
+  background-color: #141519;
+  color: #fff;
+  font-family: 'Overpass', sans-serif;
+}
+.content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.submited-content-bg {
+  background-color: hsl(221, 19%, 16%);
+  border-radius: 20px;
+  padding: 32px;
+  height: fit-content;
+  width: fit-content;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  margin: 0 auto;
+}
+.rating-content {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 24px;
+  background-color: #262f38;
+  border-radius: 20px;
+}
+.rating-txt {
+  color: hsl(25, 97%, 58%);
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 32px;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+  font-weight: 400;
+}
+.submited-text-container {
+  margin-top: 24px;
+}
+.submited-title {
+  margin-bottom: 12px;
+  font-size: 23px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+.submited-paragraph {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  width: 320px;
+}
+
+@media only screen and (max-width: 425px) {
+  .submited-content-bg {
+    padding: 16px;
+    border-radius: 18px;
+  }
+  .image {
+    width: 140px;
+    height: auto;
+  }
+
+  .rating-txt {
+    font-size: 14px;
+    padding: 6px 24px;
+  }
+
+  .submited-title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .submited-paragraph {
+    width: 260px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
